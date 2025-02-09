@@ -8,7 +8,25 @@
 </head>
 <body>
     <div id="reader">
-        <div id="content"></div>
+        <div id="content" aria-live="polite">
+            <!-- Preload all chapters, but hide them initially -->
+            <div id="chapter-1" class="chapter-content" hidden>
+                <h2>Chapter 1</h2>
+                <p>This is the content of Chapter 1. The adventure begins...</p>
+            </div>
+            <div id="chapter-2" class="chapter-content" hidden>
+                <h2>Chapter 2</h2>
+                <p>This is the content of Chapter 2. A new power is discovered...</p>
+            </div>
+            <div id="chapter-3" class="chapter-content" hidden>
+                <h2>Chapter 3</h2>
+                <p>This is the content of Chapter 3. The dark truth is revealed...</p>
+            </div>
+            <div id="chapter-4" class="chapter-content" hidden>
+                <h2>Chapter 4</h2>
+                <p>This is the content of Chapter 4. A mysterious stranger appears...</p>
+            </div>
+        </div>
         <button id="prev-btn">« Previous</button>
         <button id="next-btn">Next »</button>
     </div>
