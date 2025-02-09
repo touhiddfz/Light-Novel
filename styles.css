@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #121212;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     color: #e0e0e0;
 }
 
@@ -49,7 +49,6 @@ ul li a:hover {
     margin: 20px 0;
     padding: 20px;
     background-color: #2a2a2a;
-    border-left: 5px solid #007BFF;
     border-radius: 4px;
 }
 
